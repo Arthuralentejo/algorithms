@@ -1,17 +1,7 @@
 fun capitalize (input: String): String {
-    var capitalized = ""
-    val wordsList = input.split(" ")
-    wordsList.forEach { word ->
-        word.forEach {char ->
-            capitalized += if (word.indexOf(char) == 0){
-                char.uppercaseChar()
-            }else {
-                char.lowercaseChar()
-            }
-        }
-        capitalized += " "
+    val sb = StringBuilder()
+    input.split(" ").forEach { word ->
+        sb.append(word.first().uppercaseChar()).append(word.substring(1)).append(" ")
     }
-
-    return capitalized
-
+    return sb.toString()
 }
