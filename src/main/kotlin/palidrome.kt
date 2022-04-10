@@ -1,9 +1,3 @@
-fun main() {
-    println(isPalidrome("Adias a data da saida"))
-}
-
-
-
 fun isPalidrome(input: String): Boolean{
     if (input.isEmpty()) return false
     var equal = true
