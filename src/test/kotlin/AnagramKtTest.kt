@@ -6,5 +6,6 @@ internal class AnagramKtTest {
 
     @Test
     fun isAnagram() {
+        assertTrue(isAnagram("Davi", "Vida"))
     }
 }

@@ -1,9 +1,3 @@
-fun main() {
-    println(isAnagram("Davi", "Vida"))
-
-
-}
-
 fun isAnagram(str: String, str_compare: String): Boolean {
     if (str.length != str_compare.length) return false
 
