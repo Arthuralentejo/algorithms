@@ -1,6 +1,6 @@
 import unittest
 
-from algo.anagram import is_anagram
+from algorithms.anagram import is_anagram
 
 
 class TestAnagram(unittest.TestCase):

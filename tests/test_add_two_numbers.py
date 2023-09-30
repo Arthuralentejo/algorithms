@@ -1,6 +1,6 @@
 import unittest
 
-from algo.add_two_numbers import add_two_numbers, ListNode
+from algorithms.add_two_numbers import add_two_numbers, ListNode
 
 
 def list_to_array(head: ListNode) -> list:

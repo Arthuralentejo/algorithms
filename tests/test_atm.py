@@ -1,7 +1,7 @@
 import unittest
 from concurrent.futures import ThreadPoolExecutor
 
-from algo.atm import BankAccount
+from algorithms.atm import BankAccount
 
 
 class TestAtm(unittest.TestCase):

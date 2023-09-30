@@ -1,6 +1,6 @@
 import unittest
 
-from algo.palindrome import is_palindrome
+from algorithms.palindrome import is_palindrome
 
 
 class TestPalindrome(unittest.TestCase):

@@ -1,5 +1,5 @@
 import unittest
-from algo.two_sums import two_sums
+from algorithms.two_sums import two_sums
 
 
 class TestTwoSums(unittest.TestCase):
