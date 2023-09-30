@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "algorithms"
+version = "0.1.0"
+description = ""
+authors = ["alentejo <arthur.alentejo228@gmail.com>"]
+readme = "README.md"
+packages = [{include = "algo"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pytest = "^7.4.2"
+colorama = "^0.4.6"
+enum34 = "^1.1.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
